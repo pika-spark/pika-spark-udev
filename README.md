@@ -1,0 +1,18 @@
+<a href="https://pika-spark.io/"><img align="right" src="logo/logo-pika-spark-bg-white.png" width="15%"></a>
+:sparkles: `pika-spark-udev`
+============================
+[![Spell Check status](https://github.com/pika-spark/pika-spark-udev/actions/workflows/spell-check.yml/badge.svg)](https://github.com/pika-spark/pika-spark-udev/actions/workflows/spell-check.yml)
+
+Setting the right [udev](https://en.wikipedia.org/wiki/Udev)-rule allows flashing of the Arduino Portenta X8 on [Pika Spark](https://pika-spark.io/) without requiring super-user (`root`) privileges.
+
+<a align="center">
+  <a href="https://pika-spark.io/"></a><img src="logo/logo-pika-spark-bg-white-github.png" width="40%"></a>
+</p>
+
+### How-to-`udev`
+```bash
+https://github.com/pika-spark/pika-spark-udev
+sudo cp pika-spark-udev/99-uuu.rules /etc/udev/rules.d/
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+```
