@@ -1,4 +1,4 @@
-<a href="https://pika-spark.io/"><img align="right" src="logo/logo-pika-spark-bg-white.png" width="15%"></a>
+<a href="https://pika-spark.io/"><img align="right" src="https://raw.githubusercontent.com/pika-spark/.github/main/logo/logo-pika-spark-bg-white.png" width="15%"></a>
 :sparkles: `pika-spark-udev`
 ============================
 [![Spell Check status](https://github.com/pika-spark/pika-spark-udev/actions/workflows/spell-check.yml/badge.svg)](https://github.com/pika-spark/pika-spark-udev/actions/workflows/spell-check.yml)
@@ -11,7 +11,7 @@ Setting the right [udev](https://en.wikipedia.org/wiki/Udev)-rule allows flashin
 
 ### How-to-`udev`
 ```bash
-https://github.com/pika-spark/pika-spark-udev
+git clone https://github.com/pika-spark/pika-spark-udev
 sudo cp pika-spark-udev/99-uuu.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules
 sudo udevadm trigger
