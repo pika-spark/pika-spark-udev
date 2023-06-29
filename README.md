@@ -5,8 +5,8 @@
 
 Setting the right [udev](https://en.wikipedia.org/wiki/Udev)-rule allows flashing of the Arduino Portenta X8 on [Pika Spark](https://pika-spark.io/) without requiring super-user (`root`) privileges.
 
-<a align="center">
-  <a href="https://pika-spark.io/"></a><img src="logo/logo-pika-spark-bg-white-github.png" width="40%"></a>
+<p align="center">
+  <a href="https://pika-spark.io/"><img src="https://raw.githubusercontent.com/pika-spark/.github/main/logo/logo-pika-spark-bg-white-github.png" width="40%"></a>
 </p>
 
 ### How-to-`udev`
