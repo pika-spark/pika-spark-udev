@@ -16,3 +16,5 @@ sudo cp pika-spark-udev/99-uuu.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules
 sudo udevadm trigger
 ```
+
+For further information on how to flash the Arduino Portenta X8 please refer to the official [documentation](https://docs.pika-spark.io/flash/).
